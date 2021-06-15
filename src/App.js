@@ -261,7 +261,7 @@ function App() {
               Lihat Peta
             </button>
           </div>
-          //eslint-disable-next-line
+
           <iframe
             className="peta"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73323.88562637716!2d106.77665740641528!3d-6.193383802296384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f733b0c99e0b%3A0x3aa50d08b7a5c35c!2sJl.%20Lap.%20Merah%2C%20Joglo%2C%20Kec.%20Kembangan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011640!5e0!3m2!1sen!2sid!4v1623644481370!5m2!1sen!2sid"
@@ -272,6 +272,7 @@ function App() {
             allowFullScreen=""
             aria-hidden="false"
             tabIndex="0"
+            title="peta lokasi"
           />
         </div>
         <img
